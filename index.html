@@ -15,7 +15,7 @@
 <!-- EDIT: add a 1200x630 share image once uploaded, e.g. <meta property="og:image" content="https://tchakerianlaw.com/og.png"> and allow img-src 'self' in the CSP above -->
 <meta name="twitter:card" content="summary">
 <meta name="theme-color" content="#faf9f5">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23173831'/%3E%3Crect x='16' y='16' width='32' height='7' fill='%23faf9f5'/%3E%3Crect x='28.5' y='16' width='7' height='32' fill='%23faf9f5'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%23faf9f5'/%3E%3Cpath d='M10 20 H90' stroke='%23141414' stroke-width='9' stroke-linecap='square'/%3E%3Cpath d='M40 20 V76 H73' fill='none' stroke='%23141414' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cg stroke='%23E0662A' stroke-width='5.5' stroke-linecap='round'%3E%3Cline x1='56' y1='46' x2='78' y2='46'/%3E%3Cline x1='61.5' y1='36.5' x2='72.5' y2='55.5'/%3E%3Cline x1='61.5' y1='55.5' x2='72.5' y2='36.5'/%3E%3C/g%3E%3C/svg%3E">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"LegalService","name":"Tchakerian Law","url":"https://tchakerianlaw.com/","email":"shant@tchakerianlaw.com","description":"Fractional In-House IP Counsel for software startups.","areaServed":"US","address":{"@type":"PostalAddress","streetAddress":"1146 N Central Ave #393","addressLocality":"Glendale","addressRegion":"CA","postalCode":"91202","addressCountry":"US"},"founder":{"@type":"Person","name":"Shant Tchakerian","jobTitle":"Patent attorney","sameAs":["https://www.linkedin.com/in/shanttchakerian/"],"alumniOf":["University of California, Berkeley","Loyola Law School, Los Angeles"]}}
 </script>
@@ -79,7 +79,9 @@ section{padding-block:96px}
 
 /* Nav */
 .nav{position:fixed;top:16px;left:50%;transform:translateX(-50%);z-index:50;display:flex;align-items:center;gap:24px;padding:8px 8px 8px 16px;border-radius:9999px;background:rgba(250,249,245,0.72);backdrop-filter:blur(16px) saturate(1.4);-webkit-backdrop-filter:blur(16px) saturate(1.4);border:1px solid rgba(17,17,17,0.08);white-space:nowrap}
-.brand{text-decoration:none}
+.brand{text-decoration:none;display:inline-flex;align-items:center;gap:10px}
+.logo-mark{height:22px;width:auto;flex:none;display:block}
+.foot .logo-mark{height:28px;margin-bottom:12px}
 .nav-links{display:flex;gap:4px;list-style:none;margin:0;padding:0}
 .nav-links a{display:block;padding:4px 12px;border-radius:9999px;text-decoration:none;color:var(--muted);transition:background-color 300ms var(--ease),color 300ms var(--ease)}
 .nav-links a:hover{color:var(--ink);background:rgba(17,17,17,0.05)}
@@ -210,7 +212,7 @@ address{font-style:normal}
 <a class="skip body-6" href="#main">Skip to content</a>
 
 <nav class="nav" aria-label="Main navigation">
-  <a class="brand title-3" href="#top">Tchakerian Law</a>
+  <a class="brand title-3" href="#top"><svg class="logo-mark" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="5 15 90 66"><path d="M10 20 H90" stroke="#141414" stroke-width="9" stroke-linecap="square"/><path d="M40 20 V76 H73" fill="none" stroke="#141414" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><g stroke="#E0662A" stroke-width="5.5" stroke-linecap="round"><line x1="56" y1="46" x2="78" y2="46"/><line x1="61.5" y1="36.5" x2="72.5" y2="55.5"/><line x1="61.5" y1="55.5" x2="72.5" y2="36.5"/></g></svg>Tchakerian Law</a>
   <ul class="nav-links title-4">
     <li><a href="#benefits">Approach</a></li>
     <li><a href="#process">Process</a></li>
@@ -342,6 +344,7 @@ address{font-style:normal}
 <footer class="site">
   <div class="wrap foot body-6">
     <div>
+      <svg class="logo-mark" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="5 15 90 66"><path d="M10 20 H90" stroke="#141414" stroke-width="9" stroke-linecap="square"/><path d="M40 20 V76 H73" fill="none" stroke="#141414" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><g stroke="#E0662A" stroke-width="5.5" stroke-linecap="round"><line x1="56" y1="46" x2="78" y2="46"/><line x1="61.5" y1="36.5" x2="72.5" y2="55.5"/><line x1="61.5" y1="55.5" x2="72.5" y2="36.5"/></g></svg>
       <address><strong class="title-4" style="color:var(--ink)">Tchakerian Law</strong><br>Shant Tchakerian · Attorney advertising<br>1146 N Central Ave #393, Glendale, CA 91202<br><a href="mailto:shant@tchakerianlaw.com">shant@tchakerianlaw.com</a></address>
       <p style="margin-top:16px">This website provides general information. Advice about a particular matter requires a separate engagement.</p>
     </div>
